@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>SPA UNIVERSE</title>
+
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body id="fundo">
+    <nav id="menu">
+      <img src="/imgs/Vector.svg" alt="vector" />
+      <a id="home" href="/" onclick="route()">Home</a>
+      <a id="universo" href="/universo" onclick="route()">O Universo</a>
+      <a id="exploracao" href="/exploracao" onclick="route()">Exploração</a>
+    </nav>
+
+    <div id="app"></div>
+    <script>
+      document.getElementById("fundo").className = "";
+      document.getElementById("fundo").classList.add("fundo1");
+    </script>
+    <script src="/js/index.js" type="module"></script>
+  </body>
+</html>

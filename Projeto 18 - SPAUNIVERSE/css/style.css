@@ -1,0 +1,114 @@
+.fundo1 {
+  background-image: url("../imgs/img1.png");
+  background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o elemento */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #ffff;
+}
+
+.fundo3 {
+  background-image: url("../imgs/img3.png");
+  background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o elemento */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #ffff;
+}
+
+.fundo2 {
+  background-image: url("../imgs/img2.png");
+  background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o elemento */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #ffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --text-color: white;
+  --primary-color: white;
+}
+
+#menu {
+  font-family: Roboto;
+  display: flex;
+  padding-right: 0px;
+  align-items: center;
+  gap: 2.01694rem;
+  font-size: 15px;
+  font-style: normal;
+}
+
+#menu a {
+  text-decoration: none;
+  color: var(--text-color);
+  cursor: pointer;
+}
+
+#menu a:hover {
+  font-weight: bold;
+}
+
+#home1 {
+  color: var(--platform-aliases-ttulos, #e1e1e6);
+  font-family: Roboto;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700px;
+  line-height: 125%;
+}
+
+#home1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Isso garante que a página tenha pelo menos a altura da tela (viewport height) */
+  margin: 0; /* Remova as margens padrão do corpo */
+  text-align: center;
+}
+
+#button {
+  padding: 0.75rem 2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 0.3125rem;
+  border: 2px solid #fff;
+  color: var(--text-color);
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 300%);
+}
+
+.textBold {
+  font-weight: bold !important;
+}
+
+#button a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.container {
+  margin-left: 80px;
+  font-family: Roboto, sans-serif;
+  width: 40.5rem;
+}
+
+.titleH1 {
+  color: var(--text-color);
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%; /* 3.75rem */
+}
+
+.titleP {
+  color: var(--text-color);
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 1.8rem */
+}
